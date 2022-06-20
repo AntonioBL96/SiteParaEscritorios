@@ -474,7 +474,6 @@ footer .logo {
 footer .logo svg {
   width: 23.6rem;
   height: 3.1rem;
-  line-height: 2;
 }
 
 fotter .logo path {
@@ -486,6 +485,10 @@ footer p {
   line-height: 2;
 
   margin-bottom: 3.2rem;
+}
+
+footer .social-links {
+  justify-content: flex-start;
 }
 
 /* BACK TO TOP */
@@ -621,7 +624,7 @@ footer p {
 
   nav#navigation .menu li a::after {
     content: '';
-    width: 100%;
+    width: 0%;
     height: 2px;
     background-color: var(--primary-color);
 
@@ -674,7 +677,6 @@ footer p {
   }
 
   #home .col-a {
-    grid-area: A;
     text-align: left;
     align-self: center;
   }
